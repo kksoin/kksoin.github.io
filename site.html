@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="loading.css">
+        <script src="index.js"></script>
+        <title>Команды Andromeda</title>
+    </head>
+
+    <body onload="myFunction()" style="margin:0;" onselectstart='return false' oncopy='return false'>
+        <div id="loader"></div>
+        <div style="display:none;" id="myDiv" class="animate-bottom">
+            
+            <ul>
+                <li><a class="style-tag-a-text" href="#about">O Нас</a></li>
+                <li><a class="style-tag-a-text" href="https://t.me/kksoin_channel">Блог</a></li>
+                <li><a class="style-tag-a-text" href="#commands">Команды</a></li>
+                <li><a class="style-tag-a-text" href="#info ">Информация</a></li>
+                <li><a class="style-tag-a-text" href="#home">Главная</a></li>
+            </ul>
+
+            <div class="no-copy-img">
+                <div align="center" id = "home">
+                    <img src="info.jpg" style="height: 500px">
+                </div>
+                <br><br><br><br><br><br><br><br><br>
+                <div id="info" align="center">
+                    <h1>ЧТО УМЕЕТ БОТ?</h1>
+                    <img src='iphone.jpg' style="height: 700px;">
+                    <br><br><br>
+                </div>
+            </div>
+
+            <div align=center>
+                <a href="#commands" style="text-decoration: none;"><button class="button-style">ПОСМОТРЕТЬ ВСЕ КОМАНДЫ</button></a>
+            </div>
+            
+            <br><br><br><br>
+            <div class="commands" id="commands" align="center">
+                <br><br>
+                <div class="box3-none d-inline-flex p-3">
+                    <span>В кавычках это префикс с чего может начинаться команда</span>
+                </div>
+                <br><br>
+                <div class="box3-none d-inline-flex p-3">
+                    <span>Желтый цвет — описание всего</span>
+                </div>
+                <br><br>
+                <div class="box3-none d-inline-flex p-3">
+                    <span>Зеленый цвет — название команды</span>
+                </div>
+                <br><br><div class="box3-none d-inline-flex p-3">
+                    <span>Красный цвет — описание команды</span>
+                </div>
+                <br><br><br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— Бот</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Отвечает есть ли бот в сети!</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— Мешок, Баланс</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Показывает ваш баланс [Е-Коины, Евро, VIP]</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— +мрп</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Создает личную рп команду, +мрп привет/сказал привет</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— -мрп</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Удаляет личную рп команду, -мрп название личной команды</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— [!/.] voice, войс</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Озвучивает текст в голосовое сообщение, !voice Приветик</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— [/!+.] welcome, приветствие</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Создание приветствие в чат при новом участнике /welcome Hi {имя}</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— welcome, приветствие</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Показывает текучее приветствие в чате</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— [-] welcome, приветствие</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Удаляет приветствие в чате</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— [.!/+] rules, правила</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Создает правила в чат + правила "Ваши правила"</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— rules, правила</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Показывает правила в чате</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— [-] rules, правила</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Удаляет правила в чате</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— покажи кота, покажи котика</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Отправит случайную фотографию милого котика</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— чат ссылка</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Узнать ссылка на ваш чат</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— чат ссылка [ссылка]</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Установит ссылку на ваш чат</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— фарма, ферма, фарм</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Работа раз в час за екоины</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— етоп</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Список найбогатых чатов в екоинах</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— Екоин</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Донат екоинов в казну чата</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— баланс беседы, баланс чата</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Узнаете баланс беседы в екоинах</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— купить екоины</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Покупка екоинов за евро, купить екоины [число], за евро</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— [./!] купить вип</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Покупка вип статуса для личных команд и переводчика</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— перевод</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— перевести текст с любого языка мира на любой язык, текст, перевод ru en привет</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— евро</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Передать евро, евро [id сумма], евро [ответом на сообщение, сумма]</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— мой вип, мой vip, vip, вип, вип статус, vip статус</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Узнать присутстует ли вип статус</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— [./@!] all, созвать всех, общий сбор</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Призвать всех участников из чата одним сообщением.</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— [.!/] ид, id</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Ответом на сообщение пользователя узнать его универсальный id</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— [./!] settings</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Полноценная настройка бота в вашем чате до мелочей инлайн кнопками!</span>
+                </div>
+
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— Ваша рп команда</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— {ваше имя} {ваша мрп командa} {имя друга}</span>
+                </div>
+
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— !ник</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Ваш ник в боте, используется везде вместо вашего имени в телеграме</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— +ник</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Установить имя в боте, используется везде вместо вашего имени с телеграмма. +ник Ботик)</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— [+] channel, канал</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Добавить разрешеный канал что бы писать скрытно от имени каналов, +канал @username</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— [-] channel, канал</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Удаляет канал из базы разрешенных каналов, -канал @username</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— [/] channel, каналы</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— База данных разрешенных скрытых каналов в чате</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— [.] sw</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Количество варнов в чате, .sw 3</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— [.] len</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Количество всего символов в сообщение, .len 1000</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— '+', 'красава', 'лучший', 'согласен', 'спасибо', 'спс','спасиба', '++', '+++', 'спасиба','благодарю', 'умножаю', 'жиза', 'дякую', 'f'</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Ответом на сообщение такими словами вы будете повышать карму пользователя!</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— [+] http, сайт</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Добавляете разрешенные ссылки в базу данных, +сайт google.com</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— [-] http, сайт</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Удаляет ссылку из базы данных, этим запрещает отправлять ссылку в чат, -сайт google.com</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— [/] url</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Список ссылок которые разрешенно отправлять в чат</span>
+                </div>
+                
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— мут</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Запретить пользователю писать, мут время [s, m, h, d]</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— размут</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Разрешить писать пользователю в чат, снимает все ограничение </span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— [.] cl</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Мини-Калькулятор, .cl 2521+432*213:12</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— бан</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Блокировка пользователя в чате, [ответом на сообщение или id]</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— разбан</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Разблокировать пользователя в чате, [ответом на сообщение или id]</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— кик</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Исключить пользователя из чата без глобальной блокировки [ответом на сообщение или id]</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— мрп</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Список личных рп команд</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— [/] admin_all</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Все администраторы бота/поддержка</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— созвать админов</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Призывает всех администраторов из чата в одном сообщение</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— дуэль</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Мини игра дуэль с другом через ответ на сообщение!</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— варн, пред</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Выдать предупреждение пользователю в чате</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— [/] staff</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Список всех администраторов беседы</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— снять варн</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Снимает предупреждение у пользователя</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— [+] о себе, описание</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Добавить описание о себе, +о себе андромеда, 100 лет, люблю думать</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— [/] config</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Все настройки в чате</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— чат инфа, чат инфо</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Полноценная информация о чате</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— о себе, описание</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Сообщит ваше описание.</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— </p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Полноценная информация о вашем профиле и о все что известно базе бота</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— монеты</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Передать монеты пользователю, монеты [ответом на сообщение или id]</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— Купить энергию</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Энергия для игры в дуэлях, покупаете за екоины</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— Казино</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Мини игра казино на екоины, казино 500</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— шипперим</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Создавать пару из двух случайных людей из чата</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— бот кто</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Случайный человек [ваш текст], бот кто чудик</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— [/] combat</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Мини игра на екоины и энергию</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— пруг</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Удаляет последние сообщение которые вы укажите, пруг 10, удалится последние 10 сообщений в чате</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— купить евро</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Покупка евро для вип статусов/екоинов/энергии и другое, купить евро [число]</span>
+                </div>
+                <br><br>
+                <div class="box3-true d-inline-flex p-3">
+                    <p>— погода</p>
+                </div>
+                <br><br>
+                <div class="box3-false d-inline-flex p-3">
+                    <span>— Покажет погоду из любой точки мира, погода Абу-Даби</span>
+                </div>
+                <br><br><br>
+                </div>
+            
+                <br><br><br>
+                
+            </div>
+        </div>
+    </body>
+</html>
+
+</body>
